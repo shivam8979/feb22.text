@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        #container{
+            display: flex;
+            padding: 0;
+        }
+        .header{
+            background-color: gray;
+            width: 100vw;
+            height: 18vh;
+          
+            text-align: center;
+
+        }
+        h1{
+            color: white;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            padding-top: 7vh;
+        }
+        .mid{
+            background-color:white;
+            width: 100vw;
+            height: 10vh;
+        }
+       
+        
+        table{
+             width: 100vw;
+             height: 10vh;
+             text-align: center;
+             margin: 0;
+             
+        }
+        td{
+            width: 20vw;
+            border: 8px solid black;
+           
+        }
+      
+      /* .mid {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            padding-top: 2.5vh;
+            text-decoration: none;
+            gap: 14vw;
+            border: 5px solid black; 
+            font-size: 25px;
+            
+         
+        }*/
+        #footer{
+            background-color:blue;
+            width: 100vw;
+            height: 40vh;
+            display: flex;
+        }
+        #leftside
+        {
+            background-color: burlywood;
+            width: 10vw;
+            height: 30vh;
+            flex: 3;
+            padding: 7vh;
+        }
+        #rightside{
+            background-color: aquamarine;
+            width: 10vw;
+            height: 30vh;
+            flex: 1;
+            padding: 5vh;
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Site Wide Header</h1>
+        </div>
+        <div class="mid">
+         <table>
+             <tr>
+                 <td>home</td>
+                 <td>about</td>
+                 <td>blog</td>
+                 <td>careers</td>
+                 <td>contact us</td>
+             </tr>
+         </table>
+        </div>
+        <div id="footer">
+            <div id="leftside" >
+                <h2>This is the heading of the artical</h2><br><br>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui cum dignissimos aspernatur facilis culpa consectetur nostrum vero quasi eius reiciendis hic quis vitae, minus assumenda, fugiat laborum ducimus aliquid. Eos ratione neque quam? Esse deserunt iste magni quia iure, quam alias perspiciatis commodi. Expedita, error!</p>
+            </div>
+            <div id="rightside">
+                <h2>Aside Heading</h2><br><br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur enim deleniti, ratione, tempora temporibus, sit error qui perferendis molestiae explicabo adipisci. Praesentium optio blanditiis eligendi.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
